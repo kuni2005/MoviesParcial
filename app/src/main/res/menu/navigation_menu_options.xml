@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btPopular"
+        android:icon="@android:drawable/btn_star_big_on"
+        android:title="Popular"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/btFavorito"
+        android:icon="@android:drawable/ic_lock_idle_charging"
+        android:title="Favorito"
+        app:showAsAction="ifRoom" />
+</menu>
